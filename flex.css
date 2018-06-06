@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+}
+
+.flex-row {
+  display: flex;
+  height: 100vh;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.size {
+  width: 100%;
+  height: 100%;
+  /* No lugar de width e height você pode usar flex 1 */
+  /* isso indica que é para ocupar todo o espaço possível igualmente */
+  /* flex: 1; */
+}
+
+.red {
+  background: red;
+}
+
+.blue {
+  background: blue;
+}
+
+.green {
+  background: green;
+}
